@@ -2,6 +2,8 @@ import onnxruntime as ort
 import numpy as np
 from PIL import Image
 
+
+
 # Load ONNX model
 onnx_model_path = "model/aoiai_detectnet_v1.onnx"
 session = ort.InferenceSession(onnx_model_path)
